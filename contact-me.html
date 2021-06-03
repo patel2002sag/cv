@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contanct</title>
+</head>
+
+<body>
+  <h1>My Contact Information:</h1>
+  <hr noshade size=2 />
+  <p><strong>Social: <a href="https://www.linkedin.com/in/sagar-patel-496a361b2/">Linkedin</a></strong></p>
+  <p><strong>Email: <a href="mailto:patel2002sag">patel2002sag@gmail.com</a></strong></p>
+  <hr>
+  <table>
+    <tr>
+      <!--row for first name-->
+      <form class="" action="mailto:patel2002sag@gmail.com" method="post" enctype="text/plain">
+        <td><label for="fname"><strong>First Name: </strong></label> </td>
+        <td><input type="text" name="First Name" placeholder="First" required autocomplete="name"></td>
+    </tr>
+    <tr>
+      <!--row for last name-->
+      <td><label for="lname"><strong>Last Name: </strong></label></td>
+      <td><input type="text" name="Last Name" placeholder="Last" required autocomplete="name"></td>
+    </tr>
+    <tr>
+      <!--row for email label-->
+      <td><label for="Email"><strong>Email Adress: </strong></label></td>
+      <td><input type="email" name="Email" placeholder="sagar@example.com" multiple></td>
+    </tr>
+    <tr>
+      <!--row for message-->
+      <td><strong>Message:</strong></td>
+      <td>
+        <textarea name="Message" rows="10" cols="80" placeholder="Type Your Message Here!" required></textarea>
+        <input type="submit">
+      </td>
+    </tr>
+  </table>
+  </form>
+</body>
+
+</html>
